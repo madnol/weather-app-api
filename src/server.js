@@ -7,7 +7,7 @@ const apiRoutes = require("./services");
 
 const server = express();
 const port = process.env.PORT || 5001;
-const whitelist = ["http://localhost:3000"];
+const whitelist = ["http://localhost:3000", process.env.WEATHER_APP_PROD];
 
 //*MIDDLEWARES
 server.use(express.json());
