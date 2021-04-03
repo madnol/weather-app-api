@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "dev": "nodemon -r dotenv/config src/server.js",
-    "start": "node src/sever.js"
+    "start": "node src/seRver.js"
   },
   "keywords": [],
   "author": "Manuel Desole",
